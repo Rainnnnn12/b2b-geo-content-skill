@@ -1,0 +1,13 @@
+interface:
+  display_name: B2B GEO内容撰写
+  short_description: 基于Prompt完成选题、证据规划、大纲与B2B GEO正文
+  default_prompt: 使用 $write-b2b-geo-content 根据一个B2B Prompt完成选题、大纲和正文。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
